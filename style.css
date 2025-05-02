@@ -151,6 +151,8 @@ a {
   align-items: center;
   justify-content: start;
   margin: 0;
+  padding: 0;
+  text-wrap: wrap;
 }
 
 .albums, .singl{
@@ -239,3 +241,22 @@ button {
   border-color: #afafaf;
 }
 
+@media (max-width: 1300px){
+  .main_heading{
+    font-size: 100px;
+  }
+  .main_info{
+    padding-left: 50px;
+  }
+  #bio_text{
+    font-size: 30px;
+  }
+  #text3{
+    font-size: 20px;
+    width: 20%;
+  }
+  #sub_img{
+    width: 30%;
+  }
+
+}
